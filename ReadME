@@ -1,1 +1,25 @@
+# Chain-of-Thought (CoT) and Persona Prompting
 
+## Problem
+A company has a marketing budget of $10,000. Option A is social media ads with an expected return of $15,000. Option B is influencer marketing with an expected return of $18,000 but higher risk. Which option should the company choose?
+
+## Plain Prompt
+A company has a marketing budget of $10,000. Option A is social media ads with an expected return of $15,000. Option B is influencer marketing with an expected return of $18,000 but higher risk. Which option should the company choose?
+
+### Response
+The company should choose Option B because it has a higher expected return.
+
+## CoT + Persona Prompt
+You are a senior marketing strategist. Think step-by-step before answering.
+
+### Response
+(Full detailed response)
+
+## Comparison
+- Plain prompt gave a direct answer.
+- CoT + Persona provided structured reasoning.
+- Risk and reward were both considered.
+- The second response was more useful for decision-making.
+
+## Conclusion
+Chain-of-Thought prompting and persona prompting improve clarity, reasoning, and response quality.
